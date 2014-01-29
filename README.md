@@ -8,8 +8,7 @@ This project was forked from Nicolas Le Roux's nnetLib which you can find on [hi
  
  The major improvements are porting to GPU and adding adaptive learning rate.
  
- Training deep neural network on GPU is more than 10 times faster than on CPU. So we can experiment and tuning various algorithms
- in fast iterative cycles.
+ Training deep neural network on GPU is more than 10 times faster than on CPU. So we can experiment and tune  algorithms with various parameter combinations in fast iterative cycles.
  
  Adaptive learning rate scheduling policies set parameter wise learning rate based on the gradient histories of each parameter.
  AdaGrad uses 1 ./ sqrt(K + sum(gradient_histories .^ 2)). AdaDec extends AdaGrad by introduces forgetting factor to do exponential averaging
