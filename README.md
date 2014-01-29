@@ -4,7 +4,7 @@ nnetLib-gpuArray
 Fast deep neural network with adaptive learning rate AdaGrad and AdaDec using gpuArray
 
 This project was forked from Nicolas Le Roux's nnetLib which you can find on [his website](http://nicolas.le-roux.name/code.html)
- and (MATLAB Central File Exchange)[http://www.mathworks.com/matlabcentral/fileexchange/authors/226827].
+ and [MATLAB Central File Exchange](http://www.mathworks.com/matlabcentral/fileexchange/authors/226827).
  
  The major improvements are porting to GPU and adding adaptive learning rate.
  
